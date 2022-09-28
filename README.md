@@ -22,6 +22,6 @@
 - [PDF 下载85M](https://drive.google.com/file/d/1a6QTWkqyuf60l7bOfnyEeCl2Hr1GRB78/view?usp=sharing)
 
 ### 预览图
-| 目录 | 插画 | 正文 |
-|:---:|:---:|:---:|
-|![目录](./images/toc2.png) | ![插画](./images/cover2.png) | ![正文](./images/chapter2.png) | 
+| 目录 | 插图 | 回首图 | 正文 |
+|:---:|:---:|:---:|:---:|
+|![目录](./images/toc2.png) | ![插图](./images/image2.jpg) |  ![回首图](./images/cover2.png) | ![正文](./images/chapter2.png) | 
