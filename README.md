@@ -25,3 +25,6 @@
 | 目录 | 插图 | 回首图 | 正文 |
 |:---:|:---:|:---:|:---:|
 |![目录](./previews/toc2.png) | ![插图](./previews/image2.jpg) |  ![回首图](./previews/cover2.png) | ![正文](./previews/chapter2.png) | 
+
+## 勘误
+- 第八回，“且说从和尚”-->“且说众和尚”
