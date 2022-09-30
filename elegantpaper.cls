@@ -136,12 +136,6 @@
 \RequirePackage[pagestyles,clearempty]{titlesec}
 \RequirePackage[titles]{tocloft}
 \addtolength{\cftsecnumwidth}{40pt}
-
-\titleformat{\section}{\yahei}{\thesection}{1em}{}
-\renewcommand{\thesection}{第\chinese{section}回} 
-
-\renewcommand{\cfttoctitlefont}{\hspace*{\fill}\Large}
-\renewcommand{\cftaftertoctitle}{\hspace*{\fill}}
 %%%%%%%%%% End Enoche
 
 

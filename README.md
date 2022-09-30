@@ -19,7 +19,7 @@
 
 | 目录 | 正文 |
 |:---:|:---:|
-|![目录](./previews/toc.png) | ![正文](./previews/chapter.png) | 
+|![目录](./previews/to1.png) | ![正文](./previews/chapter1.png) | 
 
 ## A5 32开、豎版、繁體——《新刻繡像批評版金瓶梅》
 - [PDF 下载85M](https://drive.google.com/file/d/1a6QTWkqyuf60l7bOfnyEeCl2Hr1GRB78/view?usp=sharing)
