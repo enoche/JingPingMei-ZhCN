@@ -54,13 +54,14 @@
 }
 % settings for the hyperref and geometry
 \RequirePackage[
+  %papersize={108mm,144mm}, % uncomment for kindle
   left=0.25in,
   right=0.25in,
-  top=0.25in,
-  bottom=0.45in,
-  headheight=0pt,
-  headsep=0pt]{geometry}
-\setlength{\headsep}{3pt}
+  top=0.4in,
+  bottom=0.3in,
+  headheight=40pt,
+  headsep=10pt]{geometry}
+%\setlength{\headsep}{3pt}
 
 \RequirePackage{amsthm}
 \RequirePackage{amsmath}
@@ -73,7 +74,7 @@
 \RequirePackage{xcolor}
 \RequirePackage{graphicx}
 \RequirePackage{fancyvrb}
-\RequirePackage{abstract}
+%\RequirePackage{abstract}
 \RequirePackage{hologo}
 
 \linespread{1.35}
@@ -132,6 +133,15 @@
 \def\textHuoChuan {\makebox[\ccwd]{灿\kern-.6em\fboxsep\z@\colorbox{white}{\kern-.1em\scalebox{.7}[1]{川}}}}
 \def\textShan {\makebox[\ccwd]{\scalebox{.6}[1]{扌}\kern-.3em\scalebox{.7}[1]{扉}}}
 
+\RequirePackage[pagestyles,clearempty]{titlesec}
+\RequirePackage[titles]{tocloft}
+\addtolength{\cftsecnumwidth}{40pt}
+
+\titleformat{\section}{\yahei}{\thesection}{1em}{}
+\renewcommand{\thesection}{第\chinese{section}回} 
+
+\renewcommand{\cfttoctitlefont}{\hspace*{\fill}\Large}
+\renewcommand{\cftaftertoctitle}{\hspace*{\fill}}
 %%%%%%%%%% End Enoche
 
 
@@ -181,6 +191,8 @@
     \newcommand*{\heiti}{\CJKfamily{zhhei}}
     \newcommand*{\kaishu}{\CJKfamily{zhkai}}
     \newcommand*{\fangsong}{\CJKfamily{zhfs}}}{\relax}
+%	\newcommand*{\liukai}{\CJKfamily{fzliukai}}
+
   
   \ifdefstring{\ELEGANT@chinesefont}{nofont}{
     \RequirePackage[UTF8,scheme=plain,fontset=none]{ctex}}{\relax}
@@ -252,16 +264,16 @@
   \newtheorem*{note}{\normalfont\bfseries 注} %
   \newtheorem{case}{\normalfont\bfseries 案例} %
   \renewcommand*{\proofname}{\normalfont\bfseries 证明} %
-  \renewcommand\contentsname{目录}
+  \renewcommand\contentsname{\hfill\bfseries\Large 目录\hfill}
   \renewcommand\refname{参考文献} %
   \renewcommand\figurename{图} %
   \renewcommand\tablename{表}%
   \newcommand\versiontext{版本：}%
   \newcommand\updatetext{日期：}%
   \newcommand{\ebibname}{参考文献}
-  \renewcommand\abstractname{摘\hspace{2em}要}
+%  \renewcommand\abstractname{摘\hspace{2em}要}
   \setlength\parindent{2\ccwd}
-  \renewcommand{\abstracttextfont}{\small\citshape\noindent\ignorespaces}
+%  \renewcommand{\abstracttextfont}{\small\citshape\ignorespaces}
   % 新定义命令
   \newcommand{\keywords}[1]{\vskip2ex\par\noindent\normalfont{\bfseries 关键词: } #1}
   \newcommand\figref[1]{{\bfseries 图~\ref{#1}}}
@@ -287,7 +299,7 @@
   \newcommand\versiontext{\itshape Version: }%
   \newcommand\updatetext{\itshape Date: }%
   \setlength\parindent{2em}
-  \renewcommand{\abstracttextfont}{\sffamily\small\noindent\ignorespaces}
+  %\renewcommand{\abstracttextfont}{\sffamily\small\noindent\ignorespaces}
   % newcommands defined in this template.
   \newcommand{\keywords}[1]{\vskip 2ex\par\noindent\normalfont{\bfseries Keywords: } #1}
   \newcommand\figref[1]{{\bfseries Figure~\ref{#1}}}

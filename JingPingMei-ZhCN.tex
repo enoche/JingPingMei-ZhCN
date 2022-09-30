@@ -1,6 +1,7 @@
 %!TEX program = xelatex
 % 完整编译: xelatex -> biber/bibtex -> xelatex -> xelatex
-\documentclass[lang=cn,10pt,a5paper]{elegantpaper}
+\documentclass[lang=cn,10pt,a5paper,twoside]{elegantpaper}
+%\documentclass[lang=cn,11pt,twoside]{elegantpaper}  % uncomment for kindle
 
 \title{金瓶梅【崇祯本】}
 \author{兰陵笑笑生 \\ 作者 \and 南洋一粟 \\ 编辑\footnote{报错、排版\LaTeX{}：https://enoche.github.io/}}
@@ -11,19 +12,22 @@
 \setCJKsansfont{Microsoft YaHei}
 \setCJKmonofont{STFangsong}
 
+\setCJKfamilyfont{fzliukai}{FZSuXinShiLiuKaiS-R-GB}
+\newcommand{\liukai}{\CJKfamily{fzliukai}}
+
 
 % 设置章节编号
-\renewcommand\thesection{第\chinese{section}回、}
-\renewcommand\thesubsection{\arabic{subsection}.}
-\renewcommand\thesubsubsection{\alph{subsubsection})}
+%\renewcommand\thesection{{第\chinese{section}回、}}
+%\renewcommand\thesubsection{\arabic{subsection}.}
+%\renewcommand\thesubsubsection{\alph{subsubsection})}
 % 设置章节编号与章节标题的距离
-\makeatletter
-\renewcommand\@seccntformat[1]{%
-	{\csname the#1\endcsname}\hspace{0.1em}
-}
-\makeatother
+%\makeatletter
+%\renewcommand\@seccntformat[1]{%
+%	{\csname the#1\endcsname}\hspace{0.1em}
+%}
+%\makeatother
 
-% 本文档命令
+
 \usepackage{array}
 
 \newcommand{\ccr}[1]{\makecell{{\color{#1}\rule{1cm}{1cm}}}}
@@ -33,8 +37,7 @@
 \newcommand{\chapter}{\section}%
 
 \newenvironment{cipaim}[1]{【#1】}
-
-\setlength{\footskip}{16pt}
+%\setlength{\footskip}{16pt}
 
 \usepackage[
 	open,
@@ -42,6 +45,19 @@
 	atend,
 	numbered
 ]{bookmark}
+
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\sectionmark}[1]{\markright{\thesection ~ \ #1}}
+\fancyhead{} % clear all fields
+\fancyhead[LE,RO]{$\cdot$\enskip\thepage\enskip$\cdot$}
+\fancyhead[RE]{\yahei{\rightmark}}
+\fancyhead[LO]{\yahei 金瓶梅【崇祯本】}
+\fancyfoot{}
+%\rhead{$\cdot$ \thepage $\cdot$}
+
+\renewcommand{\headrulewidth}{1.0pt}
 
 \begin{document}
 
@@ -51,18 +67,21 @@
 \maketitle
 \thispagestyle{empty}
 
-
 \newpage
 
 \begin{abstract}
 \thispagestyle{empty}
-\indent 《金瓶梅》，秽书也。袁石公亟称之，亦自寄其牢骚耳，非有取于《金瓶梅》也。然作者亦自有意，盖为世戒，非为世劝也。如诸妇多矣，而独以潘金莲、李瓶儿、春梅命名者，亦楚《梼杌》之意也。盖金莲以奸死，瓶儿以孽死，春梅以淫死，较诸妇为更惨耳。借西门庆以描画世之大净，应伯爵以描绘世之小丑，诸淫妇以描画世之丑婆、净婆，令人读之汗下。盖为世戒，非为世劝也。
+{\liukai 《金瓶梅》，秽书也。袁石公亟称之，亦自寄其牢骚耳，非有取于《金瓶梅》也。然作者亦自有意，盖为世戒，非为世劝也。如诸妇多矣，而独以潘金莲、李瓶儿、春梅命名者，亦楚《梼杌》之意也。盖金莲以奸死，瓶儿以孽死，春梅以淫死，较诸妇为更惨耳。借西门庆以描画世之大净，应伯爵以描绘世之小丑，诸淫妇以描画世之丑婆、净婆，令人读之汗下。盖为世戒，非为世劝也。
 
 余尝曰：“读《金瓶梅》而生怜悯心者，菩萨也；生畏惧心者，君子也；生欢喜心者，小人也；生效法心者，乃禽兽耳。”余友人褚孝秀偕一少年同赴歌舞之筵，衍至霸王夜宴，少年垂涎曰：“男儿何可不如此！”褚孝秀曰：“也只为这乌江设此一着耳。”同座闻之，叹为有道之言。若有人识得此意，方许他读《金瓶梅》也。不然，石公几为导淫宣欲之尤矣。奉劝世人，勿为西门之后车可也。
 
-\bigskip\mbox{}\large\hfill 东吴弄珠客题
+\bigskip\mbox{}\large\hfill 东吴弄珠客题}
 \end{abstract}
 \newpage
+\pagestyle{plain}
+\tableofcontents
+\newpage
+\pagestyle{fancy}
 
 \setcounter{page}{1}
 \input{chapters/JPM001}
