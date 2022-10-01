@@ -13,7 +13,7 @@
 
 ## A5 32开、横版、简体
 - 畅读版
-- ![PDF 下载 3.8M](JingPingMei-ZhCN.pdf)
+- ![PDF 下载 4M](JingPingMei-ZhCN.pdf)
 
 ### 预览图
 
