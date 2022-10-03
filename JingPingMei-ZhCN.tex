@@ -1,14 +1,11 @@
 %!TEX program = xelatex
 % 完整编译: xelatex -> biber/bibtex -> xelatex -> xelatex
 \documentclass[lang=cn,10pt,a5paper,twoside]{elegantpaper}
-%\documentclass[lang=cn,11pt,twoside]{elegantpaper}  % uncomment for kindle
-
-\title{金瓶梅【崇祯本】}
-\author{兰陵笑笑生 \\ 作者 \and 南洋一粟 \\ 编辑\footnote{报错、排版\LaTeX{}：https://enoche.github.io/}}
-\date{}
+%\documentclass[lang=cn,12pt,twoside]{elegantpaper}  % uncomment for kindle
 
 % 本书使用的中文字体
-\setCJKmainfont[BoldFont={Source Han Serif SC Bold}, ItalicFont={LiSu}]{Source Han Serif SC SemiBold}
+\setCJKmainfont[BoldFont={Source Han Serif SC Bold}, ItalicFont={LiSu}]{SimHei}
+%\setCJKmainfont[BoldFont={Source Han Serif SC Bold}, ItalicFont={LiSu}]{Source Han Serif SC SemiBold}
 \setCJKsansfont{Microsoft YaHei}
 \setCJKmonofont{STFangsong}
 
@@ -19,11 +16,14 @@
 \setCJKfamilyfont{AHeiti}{SimHei}
 \newcommand{\simhei}{\CJKfamily{AHeiti}}
 
+\title{金瓶梅【崇祯本】}
+\author{{\kaisong 兰陵笑笑生} \\ 作者 \and {\kaisong 南洋一粟} \\  编辑\footnote{勘误、排版\LaTeX{}：https://enoche.github.io/}}
+\date{}
+
+
 \titleformat{\section}{\simhei}{\thesection}{1em}{}
 \renewcommand{\thesection}{第\chinese{section}回} 
 
-\renewcommand{\cfttoctitlefont}{\hspace*{\fill}\Large}
-\renewcommand{\cftaftertoctitle}{\hspace*{\fill}}
 
 
 % 设置章节编号
@@ -61,11 +61,11 @@
 \pagestyle{fancy}
 \renewcommand{\sectionmark}[1]{\markright{\thesection ~ \ #1}}
 \fancyhead{} % clear all fields
-\fancyhead[LE,RO]{$\cdot$\enskip\thepage\enskip$\cdot$}
+\fancyhead[LE,RO]{\footnotesize $\cdot$\enskip\thepage\enskip$\cdot$}
 %\fancyhead[RE]{\yahei{\rightmark}}
 %\fancyhead[LO]{\yahei 金瓶梅【崇祯本】}
-\fancyhead[RE]{\simhei{\rightmark}}
-\fancyhead[LO]{\simhei 金瓶梅【崇祯本】}
+\fancyhead[RE]{\footnotesize {\kaisong{\rightmark}}}
+\fancyhead[LO]{\footnotesize {\kaisong 金瓶梅【崇祯本】}}
 \fancyfoot{}
 %\rhead{$\cdot$ \thepage $\cdot$}
 

@@ -54,7 +54,8 @@
 }
 % settings for the hyperref and geometry
 \RequirePackage[
-  %papersize={108mm,144mm}, % uncomment for kindle
+%  paperheight=160mm,
+%  paperwidth=115mm,
   left=0.25in,
   right=0.25in,
   top=0.4in,
@@ -135,7 +136,11 @@
 
 \RequirePackage[pagestyles,clearempty]{titlesec}
 \RequirePackage[titles]{tocloft}
-\addtolength{\cftsecnumwidth}{40pt}
+\addtolength{\cftsecnumwidth}{45pt}
+
+\renewcommand{\cfttoctitlefont}{\hspace*{\fill}\large}
+\renewcommand{\cftaftertoctitle}{\hspace*{\fill}}
+\renewcommand\cftsecfont{\normalsize}
 %%%%%%%%%% End Enoche
 
 
