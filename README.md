@@ -3,6 +3,7 @@
 - 校对参考：[韩国梨花女子大学藏 皋鹤堂批评第一奇书.金瓶梅.十二册](https://new.shuge.org/meet/topic/34310/)
 - 本latex在[此版本](http://static.latexstudio.net/wp-content/uploads/2013/03/JinPingMei_20120105.pdf)基础上编辑并校正其误。
 - 如有报错、其它排版需求，请发新的issues.
+- 繁体版Latex正在修定.
 
 ## Table of Contents
 - [横版、简体](#a5-32%E5%BC%80%E6%A8%AA%E7%89%88%E7%AE%80%E4%BD%93)
