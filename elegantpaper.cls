@@ -54,7 +54,7 @@
 }
 % settings for the hyperref and geometry
 \RequirePackage[
-%  paperheight=160mm,
+%  paperheight=145mm,   % uncomment for Kindle
 %  paperwidth=115mm,
   left=0.25in,
   right=0.25in,
