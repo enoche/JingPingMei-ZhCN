@@ -1,7 +1,6 @@
 %!TEX program = xelatex
 % 完整编译: xelatex -> biber/bibtex -> xelatex -> xelatex
 \documentclass[lang=cn,10pt,a5paper,twoside]{elegantpaper}
-%\documentclass[lang=cn,12pt,twoside]{elegantpaper}  % uncomment for kindle
 
 % 本书使用的中文字体
 \setCJKmainfont[BoldFont={Source Han Serif SC Bold}, ItalicFont={LiSu}]{SimHei}
@@ -55,6 +54,16 @@
 	atend,
 	numbered
 ]{bookmark}
+
+\usepackage[
+paperheight=145mm,   % uncomment for Kindle
+paperwidth=115mm,
+left=0.25in,
+right=0.25in,
+top=0.4in,
+bottom=0.3in,
+headheight=40pt,
+headsep=10pt]{geometry}
 
 \usepackage{lastpage}
 \usepackage{fancyhdr}

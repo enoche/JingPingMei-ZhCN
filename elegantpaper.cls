@@ -53,15 +53,15 @@
   linktoc=all,
 }
 % settings for the hyperref and geometry
-\RequirePackage[
+%\RequirePackage[
 %  paperheight=145mm,   % uncomment for Kindle
 %  paperwidth=115mm,
-  left=0.25in,
-  right=0.25in,
-  top=0.4in,
-  bottom=0.3in,
-  headheight=40pt,
-  headsep=10pt]{geometry}
+%  left=0.25in,
+%  right=0.25in,
+%  top=0.4in,
+%  bottom=0.3in,
+%  headheight=40pt,
+%  headsep=10pt]{geometry}
 %\setlength{\headsep}{3pt}
 
 \RequirePackage{amsthm}

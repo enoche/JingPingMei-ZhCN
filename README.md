@@ -20,7 +20,7 @@
 
 | 目录 | 正文 |
 |:---:|:---:|
-|![目录](./previews/toc1.png) | ![正文](./previews/chapter1.png) | 
+|![目录](./previews/toc1.png) | ![正文](./previews/chap1.png) | 
 
 ## A5 32开、豎版、繁體——《新刻繡像批評版金瓶梅》
 - [PDF 下载85M](https://drive.google.com/file/d/1a6QTWkqyuf60l7bOfnyEeCl2Hr1GRB78/view?usp=sharing)
@@ -28,8 +28,9 @@
 ### 预览图
 | 目录 | 插图 | 回首图 | 正文 |
 |:---:|:---:|:---:|:---:|
-|![目录](./previews/toc2.png) | ![插图](./previews/image2.jpg) |  ![回首图](./previews/cover2.png) | ![正文](./previews/chapter2.png) | 
+|![目录](./previews/toc2.png) | ![插图](./previews/image2.jpg) |  ![回首图](./previews/cover2.png) | ![正文](./previews/chap2.png) | 
 
 ## 勘误
 - 第八回：“且说**从**和尚” → “且说**众**和尚”
 - 第十一回：“被**准**上一个客人” → “被**淮**上一个客人”
+- 第二十一回：“叫俺众人把淫妇性骑马回家，在路上发狠” → “叫俺众人把淫妇家门窗户壁尽力打了一顿，只要把蛮子、粉头墩锁在门上。多亏应二爹众人再三劝住。爹使性骑马回家，在路上发狠”
