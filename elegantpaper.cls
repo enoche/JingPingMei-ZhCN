@@ -38,9 +38,9 @@
 \DeclareVoidOption{mtpro2}{\ekv{math=mtpro2}}
 \DeclareVoidOption{cm}{\ekv{math=cm}}
 
-\DeclareDefaultOption{\PassOptionsToClass{\CurrentOption}{article}}
+\DeclareDefaultOption{\PassOptionsToClass{\CurrentOption}{extarticle}}
 \ProcessKeyvalOptions*\relax
-\LoadClass{article}
+\LoadClass{extarticle}
 
 \RequirePackage{hyperref}
 \hypersetup{
@@ -133,6 +133,8 @@
 \def\textHuoKua {\makebox[\ccwd]{灿\kern-.6em\fboxsep\z@\colorbox{white}{\kern-.1em\scalebox{.7}[1]{夸}}}}
 \def\textHuoChuan {\makebox[\ccwd]{灿\kern-.6em\fboxsep\z@\colorbox{white}{\kern-.1em\scalebox{.7}[1]{川}}}}
 \def\textShan {\makebox[\ccwd]{\scalebox{.6}[1]{扌}\kern-.3em\scalebox{.7}[1]{扉}}}
+\def\textSiLuo {\makebox[\ccwd]{\scalebox{.6}[1]{糹}\kern-.3em\scalebox{.7}[1]{路}}}
+\def\textShouLuan {\makebox[\ccwd]{\scalebox{.6}[1]{扌}\kern-.3em\scalebox{.7}[1]{栾}}}
 
 \RequirePackage[pagestyles,clearempty]{titlesec}
 \RequirePackage[titles]{tocloft}
