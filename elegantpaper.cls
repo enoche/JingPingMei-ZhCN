@@ -135,6 +135,14 @@
 \def\textShan {\makebox[\ccwd]{\scalebox{.6}[1]{扌}\kern-.3em\scalebox{.7}[1]{扉}}}
 \def\textSiLuo {\makebox[\ccwd]{\scalebox{.6}[1]{糹}\kern-.3em\scalebox{.7}[1]{路}}}
 \def\textShouLuan {\makebox[\ccwd]{\scalebox{.6}[1]{扌}\kern-.3em\scalebox{.7}[1]{栾}}}
+\def\textYiXuan {\makebox[\ccwd]{\scalebox{.6}[1]{衤}\kern-.3em\scalebox{.7}[1]{旋}}}
+\def\textMaoBi{\makebox[\ccwd]{毴\kern-.6em\fboxsep\z@\colorbox{white} {\kern-.1em\scalebox{.6}[0.9]{\raisebox{0.1 em}{必}}}}}
+\def\textMaoJi{\makebox[\ccwd]{毜\kern-.54em\fboxsep\z@\colorbox{white} {\kern-.1em\scalebox{.6}[0.93]{\raisebox{0.12 em}{几}}}}}
+\def\textMaoBa{\makebox[\ccwd]{毜\kern-.54em\fboxsep\z@\colorbox{white} {\kern-.1em\scalebox{.6}[0.93]{\raisebox{0.12 em}{巴}}}}}
+%\def\textMaoBi {\makebox[\ccwd]{\scalebox{.6}[1]{毴}\kern-.3em\scalebox{.7}[1]{旋}}}
+%
+%\hbox{\lower-.75ex\hbox{\scalebox{0.33}[0.5]{斯大林}}\lower.2ex\hbox{\kern-1em\scalebox{0.5}[0.5]{主义}}}
+
 
 \RequirePackage[pagestyles,clearempty]{titlesec}
 \RequirePackage[titles]{tocloft}
