@@ -6,7 +6,8 @@
 \setCJKmainfont[BoldFont={Source Han Serif SC Bold}, ItalicFont={LiSu}]{SimHei}
 %\setCJKmainfont[BoldFont={Source Han Serif SC Bold}, ItalicFont={LiSu}]{Source Han Serif SC SemiBold}
 \setCJKsansfont{Microsoft YaHei}
-\setCJKmonofont{STFangsong}
+%\setCJKmonofont{STFangsong}
+\setCJKmonofont{CloudLiBianGBK}
 
 %\setCJKfamilyfont{Askaisong}{AaKaisong2wanzijf}
 %\newcommand{\kaisong}{\CJKfamily{Askaisong}}
@@ -14,6 +15,12 @@
 \newcommand{\kaisong}{\CJKfamily{Askaisong}}
 \setCJKfamilyfont{AHeiti}{SimHei}
 \newcommand{\simhei}{\CJKfamily{AHeiti}}
+\setCJKfamilyfont{ALisu}{LiSu}
+\newcommand{\lisu}{\CJKfamily{LiSu}}
+
+
+\renewcommand{\cftsecfont}{\small \ttfamily}
+
 
 \title{金瓶梅【崇祯本】}
 \author{{\kaisong 兰陵笑笑生} \\ 作者 \and {\kaisong 南洋一粟} \\  编辑\footnote{勘误、排版\LaTeX{}：https://enoche.github.io/}}
@@ -42,7 +49,7 @@
 \newcommand{\ccr}[1]{\makecell{{\color{#1}\rule{1cm}{1cm}}}}
 \renewcommand{\abstractname}{序}
 
-\newcommand{\KG}{\quad}%
+\newcommand{\KG}{\enskip}%
 \newcommand{\chapter}{\section}%
 
 \newenvironment{cipaim}[1]{【#1】}
@@ -56,8 +63,8 @@
 ]{bookmark}
 
 \usepackage[
-paperheight=140mm,   % uncomment for Kindle
-paperwidth=110mm,
+paperheight=126mm,   % uncomment for Kindle
+paperwidth=100mm,
 left=0.1in,
 right=0.1in,
 top=0.35in,

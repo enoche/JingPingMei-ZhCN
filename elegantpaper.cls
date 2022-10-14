@@ -137,18 +137,32 @@
 \def\textShouLuan {\makebox[\ccwd]{\scalebox{.6}[1]{扌}\kern-.3em\scalebox{.7}[1]{栾}}}
 \def\textYiXuan {\makebox[\ccwd]{\scalebox{.6}[1]{衤}\kern-.3em\scalebox{.7}[1]{旋}}}
 \def\textMaoBi{\makebox[\ccwd]{毴\kern-.6em\fboxsep\z@\colorbox{white} {\kern-.1em\scalebox{.6}[0.9]{\raisebox{0.1 em}{必}}}}}
-\def\textMaoJi{\makebox[\ccwd]{毜\kern-.54em\fboxsep\z@\colorbox{white} {\kern-.1em\scalebox{.6}[0.93]{\raisebox{0.12 em}{几}}}}}
-\def\textMaoBa{\makebox[\ccwd]{毜\kern-.54em\fboxsep\z@\colorbox{white} {\kern-.1em\scalebox{.6}[0.93]{\raisebox{0.12 em}{巴}}}}}
+%\def\textMaoJiji{\makebox[\ccwd]{毜\kern-.54em\fboxsep\z@\colorbox{white} {\kern-.1em\scalebox{.6}[0.93]{\raisebox{0.12 em}{几}}}}}
+%\def\textMaoBaba{\makebox[\ccwd]{毜\kern-.54em\fboxsep\z@\colorbox{white} {\kern-.1em\scalebox{.6}[0.93]{\raisebox{0.12 em}{巴}}}}}
 \def\textShuiChu {\makebox[\ccwd]{\scalebox{.6}[1]{氵}\kern-.3em\scalebox{.7}[1]{芻}}}
+\def\textShouWai {\makebox[\ccwd]{\scalebox{.6}[1]{扌}\kern-.3em\scalebox{.7}[1]{歪}}}
+\def\textKouBian {\makebox[\ccwd]{\scalebox{.6}[1]{口}\kern-.3em\scalebox{.7}[1]{扁}}}
+\def\textJiaoJing {\makebox[\ccwd]{\scalebox{.6}[1]{角}\kern-.3em\scalebox{.7}[1]{京}}}
+\def\textMaoBa {\makebox[\ccwd]{毢\kern-.6em\fboxsep\z@\colorbox{white} {\kern-.1em\scalebox{.6}[0.93]{\raisebox{0.12 em}{巴}}}}}
+\def\textMaoJi {\makebox[\ccwd]{毢\kern-.62em\fboxsep\z@\colorbox{white} {\kern-.1em\scalebox{.6}[0.93]{\raisebox{0.12 em}{几}}}}}
+\def\textMaoWu {\makebox[\ccwd]{毢\kern-.62em\fboxsep\z@\colorbox{white} {\kern-.1em\scalebox{.6}[0.93]{\raisebox{0.12 em}{戊}}}}}
+\def\textShouZhai {\makebox[\ccwd]{\scalebox{.6}[1]{扌}\kern-.3em\scalebox{.7}[1]{寨}}}
+\def\textXiaoQin {\hbox{\lower-0.7ex\hbox{\scalebox{1}[0.6]{竺}}\lower-.0ex\hbox{\kern-0.94em \scalebox{0.95}[0.7]{\fboxsep\z@\colorbox{white}{秦}}}}}
+%\def\textXiaoQin {\makebox[\ccwd]{竺\lower-1.0ex\fboxsep\z@\colorbox{white}{\lower-1.0ex\scalebox{.7}[1]{秦}}}}
+%\def\textXiaoQin  {\makebox[\ccwd]{\makebox[lc]{\scalebox{1}[.7]{\raisebox{0.4 em}{竺}} {H}} {\kern-1.3em\scalebox{1}[0.95]{\raisebox{0. em}{秦}}}}}}
+\def\textHuoShan {\makebox[\ccwd]{烟\kern-.6em\fboxsep\z@\colorbox{white}{\kern-.1em\scalebox{.7}[1]{闪}}}}
+
+
 
 
 \RequirePackage[pagestyles,clearempty]{titlesec}
 \RequirePackage[titles]{tocloft}
 \addtolength{\cftsecnumwidth}{45pt}
 
-\renewcommand{\cfttoctitlefont}{\hspace*{\fill}\large}
+\renewcommand{\cfttoctitlefont}{\hspace*{\fill}}
 \renewcommand{\cftaftertoctitle}{\hspace*{\fill}}
-\renewcommand\cftsecfont{\normalsize}
+%\renewcommand\cftsecfont{\normalsize}
+
 %%%%%%%%%% End Enoche
 
 
