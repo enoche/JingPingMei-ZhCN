@@ -146,13 +146,32 @@
 \def\textMaoBa {\makebox[\ccwd]{毢\kern-.6em\fboxsep\z@\colorbox{white} {\kern-.1em\scalebox{.6}[0.93]{\raisebox{0.12 em}{巴}}}}}
 \def\textMaoJi {\makebox[\ccwd]{毢\kern-.62em\fboxsep\z@\colorbox{white} {\kern-.1em\scalebox{.6}[0.93]{\raisebox{0.12 em}{几}}}}}
 \def\textMaoWu {\makebox[\ccwd]{毢\kern-.62em\fboxsep\z@\colorbox{white} {\kern-.1em\scalebox{.6}[0.93]{\raisebox{0.12 em}{戊}}}}}
+\def\textMaoPi {\makebox[\ccwd]{毢\kern-.62em\fboxsep\z@\colorbox{white} {\kern-.1em\scalebox{.6}[0.8]{\raisebox{0.12 em}{皮}}}}}
 \def\textShouZhai {\makebox[\ccwd]{\scalebox{.6}[1]{扌}\kern-.3em\scalebox{.7}[1]{寨}}}
 \def\textXiaoQin {\hbox{\lower-0.7ex\hbox{\scalebox{1}[0.6]{竺}}\lower-.0ex\hbox{\kern-0.94em \scalebox{0.95}[0.7]{\fboxsep\z@\colorbox{white}{秦}}}}}
 %\def\textXiaoQin {\makebox[\ccwd]{竺\lower-1.0ex\fboxsep\z@\colorbox{white}{\lower-1.0ex\scalebox{.7}[1]{秦}}}}
 %\def\textXiaoQin  {\makebox[\ccwd]{\makebox[lc]{\scalebox{1}[.7]{\raisebox{0.4 em}{竺}} {H}} {\kern-1.3em\scalebox{1}[0.95]{\raisebox{0. em}{秦}}}}}}
 \def\textHuoShan {\makebox[\ccwd]{烟\kern-.6em\fboxsep\z@\colorbox{white}{\kern-.1em\scalebox{.7}[1]{闪}}}}
 
-
+\def\textShouZao {\makebox[\ccwd]{\scalebox{.6}[1]{扌}\kern-.3em\scalebox{.7}[1]{造}}}
+\def\textYueChou {\makebox[\ccwd]{\scalebox{.6}[1]{月}\kern-.3em\scalebox{.7}[1]{愁}}}
+\def\textSiCan {\hbox{\lower-0.8ex\hbox{\scalebox{1}[0.45]{髟}}\lower.2ex\hbox{\kern-0.94em \scalebox{0.95}[0.5]{参}}}}
+\def\textMenZuo {\hbox{\lower-0.1ex\hbox{\scalebox{1}[1]{門}}\lower-.1ex\hbox{\kern-0.98em \scalebox{0.8}[0.5]{乍}}}}
+\def\textMaLou {\makebox[\ccwd]{\scalebox{.6}[1]{马}\kern-.2em\scalebox{.7}[1]{娄}}}
+\def\textShiBi {\makebox[\ccwd]{矼\kern-.6em\fboxsep\z@\colorbox{white}{\kern-.1em\scalebox{.7}[1]{必}}}}
+\def\textShiDai {\makebox[\ccwd]{矼\kern-.6em\fboxsep\z@\colorbox{white}{\kern-.1em\scalebox{.7}[1]{帶}}}}
+\def\textHuoGuLi {{\makebox[\ccwd]{\scalebox{.3}[1]{火}\kern-.1em\scalebox{.4}[1]{古}\kern-.1em\scalebox{.3}[1]{力}}}{\footnotesize (h\'{u})}}
+\def\textShouShou {\makebox[\ccwd]{\scalebox{.6}[1]{扌}\kern-.3em\scalebox{.7}[1]{寿}} {\footnotesize (d\v{a}o)}}
+\def\textYueNang {\makebox[\ccwd]{\scalebox{.5}[1]{月}\kern-.2em\scalebox{.7}[1]{囊}} {\footnotesize (n\'{a}ng)}}
+\def\textShouQiang {\makebox[\ccwd]{\scalebox{.5}[1]{扌}\kern-.2em\scalebox{.7}[1]{戧}} {\footnotesize (qi$\grave{{\text{a}}}$ng)}}
+\def\textSiDi {\hbox{\lower-0.8ex\hbox{\scalebox{1}[0.5]{髟}}\lower.1ex\hbox{\kern-0.9em \scalebox{0.95}[0.5]{狄}}}}
+\def\textShouLuan {\makebox[\ccwd]{\scalebox{.6}[1]{扌}\kern-.3em\scalebox{.7}[1]{䜌}}{\footnotesize (lu\'{a}n)}}
+\def\textZongYe {\makebox[\ccwd]{\scalebox{.6}[1]{悤}\kern-.2em\scalebox{.7}[1]{頁}}{\footnotesize (x$\grave{{\text{\i}}}$n)}}
+\def\textCaoRiYuTa {\hbox{\lower-0.8ex\hbox{\scalebox{1}[0.6]{艹}}\lower-0.7ex\hbox{\kern-0.95em \scalebox{1}[0.3]{日}}\lower.0ex\hbox{\kern-0.95em \scalebox{1}[0.45]{羽}}}}
+% \={a}为一声
+%\'{a}二声
+%\v{a}
+%\.{a} 
 
 
 \RequirePackage[pagestyles,clearempty]{titlesec}
