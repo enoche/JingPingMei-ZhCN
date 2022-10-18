@@ -45,6 +45,7 @@
 
 
 \usepackage{array}
+%\usepackage{afterpage}
 
 \newcommand{\ccr}[1]{\makecell{{\color{#1}\rule{1cm}{1cm}}}}
 \renewcommand{\abstractname}{序}
@@ -63,12 +64,12 @@
 ]{bookmark}
 
 \usepackage[
-paperheight=126mm,   % uncomment for Kindle
+paperheight=125mm,   % uncomment for Kindle
 paperwidth=100mm,
-left=0.1in,
-right=0.1in,
+left=0.01in,
+right=0.01in,
 top=0.35in,
-bottom=0.1in,
+bottom=0.02in,
 headheight=40pt,
 headsep=10pt]{geometry}
 
@@ -113,6 +114,7 @@ headsep=10pt]{geometry}
 
 \setcounter{page}{1}
 
+%\pagecolor{yellow}\afterpage{\nopagecolor}	% 判断pdf在kindle显示大小
 \input{chapters/JPM001}
 \newpage
 \input{chapters/JPM002}
